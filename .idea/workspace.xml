@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6b5d42-256c-4a4b-a147-cdaf5d570a7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TallerGrafos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apfloat-1.10.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jgrapht-core-1.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jheaps-0.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/TallerGrafos/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Route.java" afterDir="false" />
+    <list default="true" id="0620920b-fa4d-44e1-99df-86d9c8e64680" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TallerGrafos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/Control/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/Control/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/Interfaz/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/Interfaz/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/Logica/ControlOfRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TallerGrafos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/TallerGrafos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Route.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,52 +37,60 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2cHvWKa0EpsNS3pdFMQ0WbjmXuG" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2cHx76TQGcojpvikqNBSNu7exUt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/andres/Documents/GitHub/Progra2/Progra 3/Java/TallerGrafos/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Run.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "20",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/andres/Documents/GitHub/Progra2/Progra 3/Java/TallerGrafos/code/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="TallerGrafos" />
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaz.Run" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -88,16 +104,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3c6b5d42-256c-4a4b-a147-cdaf5d570a7c" name="Changes" comment="" />
-      <created>1707781349040</created>
+      <changelist id="0620920b-fa4d-44e1-99df-86d9c8e64680" name="Changes" comment="" />
+      <created>1707782135450</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1707781349040</updated>
-      <workItem from="1707781350122" duration="117000" />
-      <workItem from="1707781473817" duration="68000" />
-      <workItem from="1707781569037" duration="60000" />
-      <workItem from="1707781636467" duration="223000" />
-      <workItem from="1707781869705" duration="101000" />
+      <updated>1707782135450</updated>
+      <workItem from="1707782137949" duration="5278000" />
     </task>
     <servers />
   </component>
