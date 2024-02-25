@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0620920b-fa4d-44e1-99df-86d9c8e64680" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TallerGrafos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/Control/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/Control/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/Interfaz/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/Interfaz/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/Logica/ControlOfRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TallerGrafos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/TallerGrafos/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Route.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707782135450</updated>
-      <workItem from="1707782137949" duration="5278000" />
+      <workItem from="1707782137949" duration="6623000" />
     </task>
     <servers />
   </component>
